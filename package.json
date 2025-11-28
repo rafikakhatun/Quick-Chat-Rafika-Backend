@@ -8,19 +8,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "mongoose": "^9.0.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rafikakhatun/Quick-Chat-Rafika-Backend.git"
-  },
-  "bugs": {
-    "url": "https://github.com/rafikakhatun/Quick-Chat-Rafika-Backend/issues"
-  },
-  "homepage": "https://github.com/rafikakhatun/Quick-Chat-Rafika-Backend#readme",
-  "description": ""
+  }
 }
+
+
+
+
+
