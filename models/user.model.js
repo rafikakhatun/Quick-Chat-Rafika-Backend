@@ -14,21 +14,20 @@ const UserSchema = new mongoose.Schema(
             lowercase: true,
 
         },
-        password:{
-            type:String,
-            require:[true, 'please ass a password'],
-            minlenght:6,
-        }
-        
+        password: {
+            type: String,
+            require: [true, 'please ass a password'],
+            minlenght: 6,
+        },
+    },
 
-
-
-
-
-
+    {
+        timestamps: true, // Automatically adds createAt and UpdatedAt fields
 
 
     }
-)
+
+
+);
 
 
