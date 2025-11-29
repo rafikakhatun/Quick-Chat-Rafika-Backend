@@ -1,7 +1,12 @@
 const express = require('express');
-const connectDB = require('./config/db');
 const app = express();
-// mongoDB connection
+const connectDB = require('./config/db');// mongoDB connection
+require('dotenv').config(); // load env file
+
+
+
+
+
 
 
 // DB connection call
