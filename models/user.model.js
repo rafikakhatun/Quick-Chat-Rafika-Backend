@@ -7,7 +7,14 @@ const UserSchema = new mongoose.Schema(
             require: [true, 'Please add a name'],
             trim: true,
         },
-        
+        email: {
+            type: String,
+            require: [true, 'please ass an email'],
+            trim: true,
+            lowercase: true,
+
+        }
+
 
 
 
