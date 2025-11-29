@@ -6,6 +6,8 @@ const connectDB = () => {
         console.log(`MongoDB Connected:${conn.connection.host}`)
 
     } catch (error) {
+        console.error(`Erroe Connecting to MongoDb:${error.message}`)
+        process.exit(1);
 
     }
 }
