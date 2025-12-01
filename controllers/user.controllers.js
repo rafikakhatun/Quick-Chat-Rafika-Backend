@@ -1,5 +1,8 @@
+const User = require("../models/user.model");
 
+// create a new user POST /api/users
 const createUser = async(req,res)=>{
+    console.log(req.body)
     try {
         const newUser = await User.create(req.body);
         resizeBy.status(201).json(newUser);
@@ -9,3 +12,5 @@ const createUser = async(req,res)=>{
         
     }
 };
+
+module.exports = {createUser}
