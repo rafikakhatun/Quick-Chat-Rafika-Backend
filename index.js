@@ -4,6 +4,9 @@ const connectDB = require('./config/db');// mongoDB connection
 require('dotenv').config(); // load env file
 const userRoutes = require('./routes/user.route')
 
+//body parser middleware (to accept JSON data)
+app.use(express.json())
+
 
 
 // route register
