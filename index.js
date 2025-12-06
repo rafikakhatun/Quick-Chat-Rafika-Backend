@@ -2,12 +2,12 @@ const express = require('express');
 const app = express();
 const connectDB = require('./config/db');// mongoDB connection
 require('dotenv').config(); // load env file
-const userRoute = require('./routes/user.route')
+const userRoutes = require('./routes/user.route')
 
 
 
 // route register
-app.use('api/user',userRoute)
+app.use('api/user',userRoutes)
 
 
 
