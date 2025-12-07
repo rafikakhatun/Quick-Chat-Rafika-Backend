@@ -9,15 +9,15 @@ const UserSchema = new mongoose.Schema(
         },
         email: {
             type: String,
-            required: [true, 'please ass an email'],
+            required: [true, 'please add an email'],
             trim: true,
             lowercase: true,
 
         },
         password: {
             type: String,
-            required: [true, 'please ass a password'],
-            minlenght: 6,
+            required: [true, 'please add a password'],
+            minlength: 6,
         },
     },
 
