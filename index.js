@@ -10,7 +10,7 @@ app.use(express.json())
 
 
 // route register
-app.use('api/user',userRoutes)
+app.use('/api/users',userRoutes)
 
 
 
